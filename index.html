@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Static Site Archives</title>
+  <link rel="stylesheet" href="models.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Site Archives</h1>
+    <input id="archive-search" type="search" placeholder="Search archives..." aria-label="Search archives">
+  </header>
+
+  <main class="archives">
+    <section class="archive" data-type="date">
+      <h2 class="toggle">Date (chronological)</h2>
+      <ul class="archive-list">
+        <li><a href="/2025/10/">2025 / October</a></li>
+        <li><a href="/2025/09/">2025 / September</a></li>
+        <li><a href="/2024/">2024</a></li>
+      </ul>
+    </section>
+
+    <section class="archive" data-type="category">
+      <h2 class="toggle">Categories</h2>
+      <ul class="archive-list">
+        <li><a href="/category/design/">Design</a></li>
+        <li><a href="/category/development/">Development</a></li>
+        <li><a href="/category/tutorials/">Tutorials</a></li>
+      </ul>
+    </section>
+
+    <section class="archive" data-type="tag">
+      <h2 class="toggle">Tags</h2>
+      <ul class="archive-list">
+        <li><a href="/tag/javascript/">javascript</a></li>
+        <li><a href="/tag/css/">css</a></li>
+        <li><a href="/tag/accessibility/">accessibility</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
