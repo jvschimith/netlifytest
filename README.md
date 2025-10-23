@@ -1,2 +1,0 @@
-# netlifytest
-netlify test
